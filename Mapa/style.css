@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+
+    min-height: 100vh;
+    background-color: #0f3832;
+    overflow-x: hidden:
+
+}
+.container {
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+.bubbles {
+
+    position: relative;
+    display: flex;
+}
+.bubbles span {
+
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(120s / var(--i));
+
+}
+
+.bubbles span:nth-child(even){
+
+    background-color: #11a862;
+    box-shadow: 0 0 0 10px #11a86244,elify Sans
+    0 0 50px #11a862,
+    0 0 100px #11a862;
+}
+
+@keyframes animate 
+{
+
+    0%{
+
+        transform: translateY(100vh) scale(0);
+
+    }
+    100%{
+
+        transform: translateY(-10vh) scale(1);
+
+    }
+
+}
+
+iframe {
+
+   position: absolute;
+   top: 230px;
+   left: 450px;
+
+
+}
+.Line {
+
+    background-color: #1a473e;
+    background-image: linear-gradient(to right, #13a853 ,#094735 );
+    width: 3800px;
+    height: 120px;
+    color:aliceblue;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    font-family: "Pixelify Sans", fantasy;
+    margin: auto;
+    padding: 10px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
